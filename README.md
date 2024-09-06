@@ -26,3 +26,10 @@ Modify `steps/two.go`
 ```bash
 sudo go run main.go run_two /bin/bash
 ```
+
+or
+
+```
+go build
+sudo ./container-from-scratch run_two /bin/bash
+```
